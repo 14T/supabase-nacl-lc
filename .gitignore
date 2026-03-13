@@ -1,0 +1,59 @@
+## Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+## Build
+dist/
+build/
+
+## Environment files
+.env
+.env.*.local
+.env.local
+
+## Supabase local artifacts
+.supabase/
+supabase/.cache/
+supabase/.local/
+supabase/.temp/
+supabase/.secrets
+.supabase/config.toml
+
+## Supabase functions
+functions/node_modules/
+functions/dist/
+functions/.env
+
+## Database files
+*.db
+*.sqlite
+*.sqlite3
+
+## Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+ENV/
+
+## IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+
+## macOS
+.DS_Store
+
+## Logs and temp
+logs/
+*.log
+tmp/
+*.tmp
+
+## Coverage
+coverage/
+.nyc_output/
